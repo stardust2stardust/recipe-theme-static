@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Blog</title>
+    <script
+      src="https://kit.fontawesome.com/e6d13d8469.js"
+      crossorigin="anonymous"></script>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-container">
+        <h1 class="site-title">Simply Recipes</h1>
+        <nav class="main-navigation">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </nav>
+
+        <i
+          class="fa-solid fa-bars fa-xl"
+          id="menuToggle"></i>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="container page-section">
+        <!-- Latest recipes go here -->
+        <h2 class="section-title">Recent Additions</h2>
+        <div class="grid-2-col">
+          <div class="recipe-card">
+            <img
+              src="./images/dessert.jpeg"
+              alt="ice cream"
+              class="recipe-card__image" />
+            <h3 class="recipe-card__category">Dessert</h3>
+            <a href="/single.html"
+              ><h2 class="recipe-card__title">Caramel Apple Ice Cream</h2></a
+            >
+          </div>
+          <div class="recipe-card">
+            <img
+              src="./images/noodle-bowl-1920x1289.jpg"
+              alt="noodle bowl"
+              class="recipe-card__image" />
+            <h3 class="recipe-card__category">Lunch</h3>
+            <h2 class="recipe-card__title">Soba and Edamame Noodles</h2>
+          </div>
+          <div class="recipe-card">
+            <img
+              src="./images/recipe-01.jpg"
+              alt="Impossible Burger"
+              class="recipe-card__image" />
+            <h3 class="recipe-card__category">Lunch</h3>
+            <h2 class="recipe-card__title">Impossible Burger</h2>
+          </div>
+          <div class="recipe-card">
+            <img
+              src="./images/recipe-02.jpg"
+              alt="noodle bowl"
+              class="recipe-card__image" />
+            <h3 class="recipe-card__category">Breakfast</h3>
+            <h2 class="recipe-card__title">Cinnamon Infused Pancakes</h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="container page-section dark-bg">
+        <h2 class="section-title">Popular Categories:</h2>
+        <ul class="list-categories">
+          <li>Soups</li>
+          <li>Sides</li>
+          <li>Tofu</li>
+          <li>Bowls</li>
+          <li>Desserts</li>
+          <li>Instant Pot</li>
+        </ul>
+      </section>
+
+      <section class="container page-section">
+        <!-- Various categories -->
+        <h2 class="section-title">Winter Favorites</h2>
+        <div class="">
+          <div class="recipe-card featured">
+            <img
+              src="./images/dessert.jpeg"
+              alt="ice cream"
+              class="recipe-card__image" />
+            <h3 class="recipe-card__category">Dessert</h3>
+            <div class="recipe-card__title-wrapper">
+              <h2 class="recipe-card__title">Caramel Apple Ice Cream</h2>
+            </div>
+          </div>
+          <div class="grid-1-col">
+            <div class="recipe-card">
+              <img
+                src="./images/noodle-bowl-1920x1289.jpg"
+                alt="noodle bowl"
+                class="recipe-card__image" />
+              <div>
+                <h3 class="recipe-card__category">Lunch</h3>
+                <h2 class="recipe-card__title">Impossible Burger</h2>
+              </div>
+            </div>
+            <div class="recipe-card">
+              <img
+                src="./images/recipe-01.jpg"
+                alt="Impossible Burger"
+                class="recipe-card__image" />
+              <div>
+                <h3 class="recipe-card__category">Lunch</h3>
+                <h2 class="recipe-card__title">Impossible Burger</h2>
+              </div>
+            </div>
+            <div class="recipe-card">
+              <img
+                src="./images/recipe-02.jpg"
+                alt="noodle bowl"
+                class="recipe-card__image" />
+              <div>
+                <h3 class="recipe-card__category">Breakfast</h3>
+                <h2 class="recipe-card__title">Cinnamon Infused Pancakes</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container page-section med-bg">
+        <h2 class="section-title">Sweets</h2>
+        <div class="grid-2-col">
+          <div class="recipe-card">
+            <img
+              src="./images/dessert.jpeg"
+              alt="ice cream"
+              class="recipe-card__image" />
+            <h3 class="recipe-card__category">Dessert</h3>
+            <h2 class="recipe-card__title">Caramel Apple Ice Cream</h2>
+          </div>
+          <div class="recipe-card">
+            <img
+              src="./images/noodle-bowl-1920x1289.jpg"
+              alt="noodle bowl"
+              class="recipe-card__image" />
+            <h3 class="recipe-card__category">Lunch</h3>
+            <h2 class="recipe-card__title">Soba and Edamame Noodles</h2>
+          </div>
+          <div class="recipe-card">
+            <img
+              src="./images/recipe-01.jpg"
+              alt="Impossible Burger"
+              class="recipe-card__image" />
+            <h3 class="recipe-card__category">Lunch</h3>
+            <h2 class="recipe-card__title">Impossible Burger</h2>
+          </div>
+          <div class="recipe-card">
+            <img
+              src="./images/recipe-02.jpg"
+              alt="noodle bowl"
+              class="recipe-card__image" />
+            <h3 class="recipe-card__category">Breakfast</h3>
+            <h2 class="recipe-card__title">Cinnamon Infused Pancakes</h2>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2023 Recipe Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
